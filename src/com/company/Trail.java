@@ -2,12 +2,7 @@ package com.company;
 
 public class Trail extends Runner {
 
-    private int[] markers;
-
-    public Trail(int[] markers) {
-        this.markers = markers;
-    }
-
+    private int[] markers = {100,150,105,120,90,80,51,75,75,70,80,90,100};
 
 
     public boolean isLevelTrailSegment(int start, int end)
